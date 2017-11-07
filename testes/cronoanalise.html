@@ -1,0 +1,24 @@
+<html>
+<meta charset='utf-8'>
+	<head>
+		<title> Cronoanálise </title>
+		<script type="text/javascript" src="js/crono.js"></script>
+	</head>
+<body onload="carregarConfiguracao()">
+	<h1>Cronoanálise</h1>
+	
+	<button id="i" onclick="iniciar()">Iniciar</button>
+	<button id="m" onclick="marcar()">Marcar</button>
+	<button id="p" onclick="parar()">Parar</button>
+	<h2 id="marcador">0000</h2>
+	<h2 id="parcial">0000</h2>
+	<div id="registros" class="alert alert-success" role="alert">
+		Marcações
+	</div>
+	
+	<h3 id="s">----</h3>
+	<h3 id="maior">----</h3>
+	<h3 id="menor">----</h3>
+
+</body>
+</html>
